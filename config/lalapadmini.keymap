@@ -144,7 +144,7 @@
             bindings = <&kp TAB>;
             key-positions = <10 11>;
             timeout-ms = <25>;
-            require-prior-idle-ms = <120>;
+            require-prior-idle-ms = <170>;
         };
 
         COMBO_WIN {
