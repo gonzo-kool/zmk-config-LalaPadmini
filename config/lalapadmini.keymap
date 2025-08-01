@@ -151,6 +151,16 @@
             bindings = <&kp LWIN>;
             key-positions = <30 31>;
         };
+
+        Lang1 {
+            bindings = <&kp LANG1>;
+            key-positions = <35 34>;
+        };
+
+        Lang2 {
+            bindings = <&kp LANG2>;
+            key-positions = <32 33>;
+        };
     };
 
     macros {
@@ -170,10 +180,10 @@
             sensor-bindings = <&scroll_down_up>, <&scroll_up_down>;
 
             bindings = <
-&kp Q              &kp W         &kp E  &kp R                   &kp T        &kp Y            &kp U                  &kp I      &kp O           &kp P
-&kp A              &kp S         &kp D  &kp F                   &kp G        &kp H            &kp J                  &kp K      &kp L           &mt2 EQUAL MINUS
-&mt2 LEFT_SHIFT Z  &kp X         &kp C  &kp V                   &kp B        &kp N            &kp M                  &kp COMMA  &kp PERIOD      &mt2 RSHIFT SLASH
-&kp LCTRL          &kp LEFT_ALT         &mt LEFT_CONTROL SPACE  &lt 1 SPACE  &lt 2 BACKSPACE  &mt RIGHT_SHIFT ENTER             &kp LANGUAGE_2  &mt RCTRL LANGUAGE_1
+&kp Q              &kp W         &kp E  &kp R                   &kp T        &kp Y            &kp U                  &kp I      &kp O          &kp P
+&kp A              &kp S         &kp D  &kp F                   &kp G        &kp H            &kp J                  &kp K      &kp L          &mt2 EQUAL MINUS
+&mt2 LEFT_SHIFT Z  &kp X         &kp C  &kp V                   &kp B        &kp N            &kp M                  &kp COMMA  &kp PERIOD     &mt2 RSHIFT SLASH
+&kp LCTRL          &kp LEFT_ALT         &mt LEFT_CONTROL SPACE  &lt 1 SPACE  &lt 2 BACKSPACE  &mt RIGHT_SHIFT ENTER             &kp RIGHT_ALT  &kp RIGHT_GUI
             >;
         };
 
